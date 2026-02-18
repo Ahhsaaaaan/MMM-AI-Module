@@ -1,0 +1,21 @@
+{
+  "id": "ai-assistant",
+  "type": "menu",
+  "icon": "microphone",
+  "text": "AI Assistant",
+  "items": [
+    {
+      "id": "ai-trigger-button",
+      "type": "item",
+      "icon": "commenting",
+      "text": "🎤 Start AI Listening",
+      "action": "NOTIFICATION",
+      "content": {
+        "notification": "START_AI_LISTENING",
+        "payload": {
+          "action": "start"
+        }
+      }
+    }
+  ]
+}

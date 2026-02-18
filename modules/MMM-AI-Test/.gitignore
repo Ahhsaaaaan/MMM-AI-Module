@@ -1,0 +1,12 @@
+# Environment variables
+.env
+
+# Captured files
+audio_*.wav
+image_*.jpg
+*.wav
+*.jpg
+
+# Dependencies
+node_modules/
+package-lock.json
